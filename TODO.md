@@ -4,4 +4,4 @@ h1. This is a To Do list for my resume
 * Education
 * Skills
 * Employment History
-* Employment History
+
