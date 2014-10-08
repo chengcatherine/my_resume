@@ -1,0 +1,110 @@
+.navbar-header {
+	height: 60px;
+}
+
+.navbar-nav {
+	padding: 15px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	padding: 25px 40px;
+}
+
+.navbar-fixed-top {
+	border-width: 0 0 6px;
+}
+
+.navbar {
+	min-height: 60px;
+}
+
+.navbar-default {
+	border-color: #d9230f;
+}
+
+
+#resumepage {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 120px;
+}
+
+#firstcolumn {
+	float: left;
+	width: 45%;
+	padding-bottom: 100px;
+}
+
+#secondcolumn {
+	float: right;
+	width: 45%;
+	padding-bottom: 100px;
+}
+
+#resumepage h1{
+	font-size: 20px;
+	margin-bottom: 4px;
+}
+
+#resumepage h2{
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+#resumepage h3{
+	font-size: 14px;
+	margin-top: 2px;
+	margin-bottom: 4px;
+}
+
+#resumepage h4{
+	font-size: 11px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#resumepage h5{
+	font-size: 13px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.line-separator{
+	height: 2px;
+	background:#d9230f;
+
+}
+ 
+.fillcircle {
+	width: 14px;
+	height: 14px;
+	border-radius: 7px;
+	border: 2px solid #635F62;
+	background-color: #d9230f;
+	padding-right: 1px;
+}
+
+.emptycircle {
+	width: 14px;
+	height: 14px;
+	border-radius: 7px;
+	border: 2px solid #635F62;
+	background-color: #FFF;
+	opacity: 30%;
+	padding-right: 1px;
+}
+
+td:first-child {
+	width: 300px;
+}
+
+td {
+	padding-right: 1px;
+}
+
+h2:first-child{
+	margin-top: 10px;
+}
+	

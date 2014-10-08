@@ -1,0 +1,65 @@
+#aboutpage {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 120px;
+}
+
+.navbar-fixed-top {
+	border-width: 0 0 6px;
+}
+
+.navbar {
+	min-height: 60px;
+}
+
+.navbar-default {
+	border-color: #d9230f;
+}
+#sidebar {
+	float: left;
+	width: 300px;
+}
+
+#main {
+	float: right;
+	/*margin-left: 300px;*/
+/*	padding-left: 40px;*/
+}
+
+#aboutmephoto {
+	width: 50%;
+	-webkit-filter: grayscale(80%);
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	padding: 25px 40px;
+}
+
+#aboutmephoto:hover {
+	-webkit-filter: grayscale(0%);
+	/*background: url("../images/aboutmecolor.jpg") no-repeat center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	width: 50%;
+  	height: 50%;*/
+}
+
+.navbar-header {
+	height: 60px;
+}
+
+.navbar-nav {
+	padding: 15px;
+}
+
+h1 {
+	color: #d9230f;
+}

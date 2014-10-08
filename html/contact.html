@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>catherine cheng</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/contact.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">catherine cheng</a>
+        </div>
+        <!-- Navbar Content -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+              <li><a href="about.html">about</a></li>
+              <li><a href="resume.html">resume</a></li>
+              <li class="active"><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="contactpage">
+      <div id="main">
+        <div id="messages">
+          <h1>get in touch</h1>
+            <?php include 'contact.php';?>
+            <form action="contact.php" method="post">
+              <p>Name</p>
+              <input type="text" name="cf_name"/>
+              <p>Email</p>
+              <input type="text" name="cf_email"/>
+              <p>Message</p>
+              <textarea type="text" name="cf_message"></textarea>
+              <p>
+                <input type="submit" value="Send">
+                <input type="reset" value="Clear">
+              </p>
+            </form>
+          </div>
+          
+
+          <div id=icons>
+              <a href="mailto:chengcatherine91@gmail.com"><img src="../icons/Gmail_small.png" id="email"></a>
+              <a href="https://www.linkedin.com/in/chengcatherine/"><img src="../icons/LinkedIn_small.png" id="linkedin"></a>
+              <a href="https://twitter.com/cheng_catherine"><img src="../icons/Twitter_small.png" id="twitter"></a>
+              <a href="https://www.facebook.com/chengcatherine1"><img src="../icons/Facebook_small.png" id="facebook"></a>
+              <a href="https://www.skype.com"><img src="../icons/Skype_small.png" id="skype"></a>
+          </div>
+          </div>
+        </div>
+
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

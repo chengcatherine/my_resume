@@ -1,0 +1,62 @@
+.navbar-header {
+	height: 60px;
+}
+
+.navbar-nav {
+	padding: 15px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	padding: 25px 40px;
+}
+
+.navbar-fixed-top {
+	border-width: 0 0 6px;
+}
+
+.navbar {
+	min-height: 60px;
+}
+
+.navbar-default {
+	border-color: #d9230f;
+}
+
+#contactpage {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 120px;
+}
+
+#icons {
+	padding-top: 50px;
+}
+
+#icons a{
+	padding-right: 20px;
+}
+
+#messages {
+	float: left;
+}
+
+#icons {
+	float: right;
+}
+
+h1 {
+	color: #d9230f;
+}
+
+input[type="text"] {
+    width: 500px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea[type="text"] {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 10px;
+}
